@@ -1,6 +1,6 @@
 import { Items } from "./items.interface";
 
-let items: Items = {
+export let items: Items = {
   1: {
     id: 1,
     name: "Burger",
