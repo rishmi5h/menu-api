@@ -1,4 +1,6 @@
 .env
 node_modules
 *-lock.yaml
--debug.log
+
+*.log
+npm-debug.log*
