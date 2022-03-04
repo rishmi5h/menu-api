@@ -1,0 +1,6 @@
+.env
+node_modules
+*-lock.yaml
+
+*.log
+npm-debug.log*
