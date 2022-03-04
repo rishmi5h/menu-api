@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev --respawn --pretty --transpile-only src/index.ts",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "build": "bower install && grunt build",
+    "start": "nf start"
   },
   "keywords": [
     "example",
